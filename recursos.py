@@ -56,6 +56,6 @@ if __name__ == "__main__":
     limite_disco = float(
         input("Informe o limite de uso do disco em percentagem: "))
 
-    # Chamar a função para monitorar recursos com as informações fornecidas pelo usuário
+    # Chamar a função para monitorar recursos com as informações fornecidas pelo usuário.
     monitorar_recursos(intervalo_segundos, limite_cpu,
                        limite_memoria, limite_disco)
